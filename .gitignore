@@ -1,0 +1,4 @@
+.env
+logs/
+wallets/*.json
+!wallets/.gitkeep

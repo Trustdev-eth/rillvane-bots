@@ -1,0 +1,16 @@
+{
+  "name": "rillvane-bots",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Devnet trading bots that fill the Rillvane RLVN/USDC chart through signed origin intents.",
+  "scripts": {
+    "start": "node src/run.mjs",
+    "setup": "node src/run.mjs --setup-only",
+    "seed": "node src/run.mjs --seed-only",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
